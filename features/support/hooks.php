@@ -27,6 +27,7 @@ $hooks->beforeScenario('', function($event) {
     $fixture = new BddAllFixture();
     $manager->fixturize($fixture);
     $manager->load($fixture);
+    
 });
 $hooks->afterScenario('', function($event) {
     // do something after each scenario
