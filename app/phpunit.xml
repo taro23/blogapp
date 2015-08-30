@@ -1,4 +1,4 @@
-<phpunit bootstrap="/path/to/bootstrap.php">
+<phpunit>
 	<filter>
 		<blacklist>
 			<directory suffix=".php">Plugin</directory>
