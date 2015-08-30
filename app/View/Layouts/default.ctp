@@ -16,13 +16,12 @@
 		<div class="page-header">
 			<h1><?= $this->Html->link('継続的インテグレーション開発サンプル', ['action' => 'index']); ?></h1>
 		</div>
-		<article>
-			<header>
-				<?= $this->Session->flush() ?>
- 			</header><!-- /header -->
-
-			<?= $this->fetch('content') ?>
-		</article>
+        <article>
+            <header>
+                <?= $this->Session->flash() ?>
+            </header>
+            <?= $this->fetch('content') ?>
+        </article>
 		<footer></footer>
 	</div>
 	<div class="panel panel-default">
