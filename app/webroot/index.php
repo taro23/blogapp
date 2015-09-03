@@ -52,8 +52,8 @@ if (!defined('APP_DIR')) {
  * The following line differs from its sibling
  * /app/webroot/index.php
  */
-define('CAKE_CORE_INCLUDE_PATH',  ROOT . DS . APP_DIR . DS . 'Vendor' . DS . 'cakephp' . DS . 'cakephp' . DS . 'lib');
-// define('CAKE_CORE_INCLUDE_PATH',  '/var/www/application/current/app/Vendor/cakephp/cakephp/lib');
+//define('CAKE_CORE_INCLUDE_PATH',  ROOT . DS . APP_DIR . DS . 'Vendor' . DS . 'cakephp' . DS . 'cakephp' . DS . 'lib');
+define('CAKE_CORE_INCLUDE_PATH',  '/var/www/application/current/app/Vendor/cakephp/cakephp/lib');
 
 /**
  * Editing below this line should NOT be necessary.
